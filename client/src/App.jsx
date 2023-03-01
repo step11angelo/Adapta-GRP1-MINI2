@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Services from "./pages/Services";
 import Connect from "./pages/Connect";
+import Login from "./pages/Login";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,6 +21,7 @@ function App() {
         { path: "/gallery", element: <Gallery /> },
         { path: "/services", element: <Services /> },
         { path: "/connect", element: <Connect /> },
+        { path: "/login", element: <Login /> },
       ],
     },
   ]);
