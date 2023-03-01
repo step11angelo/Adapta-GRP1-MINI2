@@ -1,4 +1,4 @@
-const oliviaJohn = [
+const AlbumOliviaJohn = [
   {
     imgSrc:
       "https://images.squarespace-cdn.com/content/v1/54b5d529e4b0a17414a81219/1595513164486-NRFZKTWBXJXWQ3MQ3KX1/610_0001.jpg",
@@ -69,4 +69,4 @@ const oliviaJohn = [
   },
 ];
 
-export default oliviaJohn;
+export default AlbumOliviaJohn;
