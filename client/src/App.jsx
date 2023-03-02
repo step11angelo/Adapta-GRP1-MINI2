@@ -2,6 +2,7 @@ import { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/App.css";
 import Layout from "./pages/Layout";
+import Login from "./pages/Login";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -24,6 +25,7 @@ function App() {
         { path: "/gallery", element: <Gallery /> },
         { path: "/services", element: <Services /> },
         { path: "/connect", element: <Connect /> },
+        { path: "/login", element: <Login /> },
         { path: "/gallery/OliviaJohn", element: <OliviaJohn /> },
         { path: "/gallery/LizThomas", element: <LizThomas /> },
         { path: "/gallery/BeccaAndrew", element: <BeccaAndrew /> },
