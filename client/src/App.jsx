@@ -11,6 +11,7 @@ import Connect from "./pages/Connect";
 import OliviaJohn from "./pages/Galleries-page/OliviaJohn";
 import LizThomas from "./pages/Galleries-page/LizThomas";
 import BeccaAndrew from "./pages/Galleries-page/BeccaAndrew";
+import TheresaJamil from "./pages/Galleries-page/TheresaJamil";
 
 function App() {
   const router = createBrowserRouter([
@@ -26,6 +27,7 @@ function App() {
         { path: "/gallery/OliviaJohn", element: <OliviaJohn /> },
         { path: "/gallery/LizThomas", element: <LizThomas /> },
         { path: "/gallery/BeccaAndrew", element: <BeccaAndrew /> },
+        { path: "/gallery/TheresaJamil", element: <TheresaJamil /> },
       ],
     },
   ]);
