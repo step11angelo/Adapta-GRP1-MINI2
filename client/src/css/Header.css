@@ -30,6 +30,8 @@ nav ul li {
   display: flex;
   align-items: center;
   cursor: pointer;
+
+  transition: all 0.15s ease;
 }
 li:hover {
   border-bottom: 3px solid var(--light-color);

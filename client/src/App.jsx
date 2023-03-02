@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/App.css";
 import Layout from "./pages/Layout";
@@ -9,6 +10,7 @@ import Services from "./pages/Services";
 import Connect from "./pages/Connect";
 import OliviaJohn from "./pages/Galleries-page/OliviaJohn";
 import LizThomas from "./pages/Galleries-page/LizThomas";
+import BeccaAndrew from "./pages/Galleries-page/BeccaAndrew";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +25,7 @@ function App() {
         { path: "/connect", element: <Connect /> },
         { path: "/gallery/OliviaJohn", element: <OliviaJohn /> },
         { path: "/gallery/LizThomas", element: <LizThomas /> },
+        { path: "/gallery/BeccaAndrew", element: <BeccaAndrew /> },
       ],
     },
   ]);

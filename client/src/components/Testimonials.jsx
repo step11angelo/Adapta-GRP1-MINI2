@@ -51,7 +51,7 @@ const Testimonials = () => {
               <h5>{title}</h5>
 
               <div className="testimonials--content">
-                <i class="fa-sharp fa-solid fa-quote-right"></i>
+                <i className="fa-sharp fa-solid fa-quote-right"></i>
                 <p>{quote}</p>
               </div>
             </article>
