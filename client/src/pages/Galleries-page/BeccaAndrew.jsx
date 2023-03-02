@@ -1,14 +1,14 @@
 import React from "react";
 import "../../css/PhotoAlbum.css";
-import AlbumLizThomas from "../../data/Album/AlbumLizThomas";
+import AlbumBeccaAndrew from "../../data/Album/AlbumBeccaAndrew";
 
-const LizThomas = () => {
+const BeccaAndrew = () => {
   return (
     <>
       <main>
-        <h2 className="photo-album--header">Liz + Thomas</h2>
+        <h2 className="photo-album--header">Becca + Andrew</h2>
         <div className="photo-album--container">
-          {AlbumLizThomas.map((photo) => {
+          {AlbumBeccaAndrew.map((photo) => {
             const { imgSrc, imgID } = photo;
 
             return (
@@ -23,4 +23,4 @@ const LizThomas = () => {
   );
 };
 
-export default LizThomas;
+export default BeccaAndrew;
