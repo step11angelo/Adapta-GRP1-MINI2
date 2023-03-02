@@ -12,6 +12,11 @@ import OliviaJohn from "./pages/Galleries-page/OliviaJohn";
 import LizThomas from "./pages/Galleries-page/LizThomas";
 import BeccaAndrew from "./pages/Galleries-page/BeccaAndrew";
 import TheresaJamil from "./pages/Galleries-page/TheresaJamil";
+import MeganJake from "./pages/Galleries-page/MeganJake";
+import HannahCarson from "./pages/Galleries-page/HannahCarson";
+import KayleenTristan from "./pages/Galleries-page/KayleenTristan";
+import NinaZach from "./pages/Galleries-page/NinaZach";
+import JessJordan from "./pages/Galleries-page/JessJordan";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +33,11 @@ function App() {
         { path: "/gallery/LizThomas", element: <LizThomas /> },
         { path: "/gallery/BeccaAndrew", element: <BeccaAndrew /> },
         { path: "/gallery/TheresaJamil", element: <TheresaJamil /> },
+        { path: "/gallery/MeganJake", element: <MeganJake /> },
+        { path: "/gallery/HannahCarson", element: <HannahCarson /> },
+        { path: "/gallery/KayleenTristan", element: <KayleenTristan /> },
+        { path: "/gallery/NinaZach", element: <NinaZach /> },
+        { path: "/gallery/JessJordan", element: <JessJordan /> },
       ],
     },
   ]);
