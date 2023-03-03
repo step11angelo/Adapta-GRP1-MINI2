@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/index.css";
 import Testimonials from "../components/Testimonials";
+import { firstPhoto, secondPhoto } from "../assets/images";
 
 const Home = () => {
   return (
@@ -26,37 +27,37 @@ const Home = () => {
         <div className="grid-container">
           <div>
             <img
-              src="../images/1.jpeg"
+              src={firstPhoto}
               alt=""
             />
           </div>
           <div>
             <img
-              src="../images/2.jpeg"
+              src={secondPhoto}
               alt=""
             />
           </div>
           <div>
             <img
-              src="../images/4.jpeg"
+              src="src/assets/images/4.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="../images/5.jpeg"
+              src="src/assets/images/5.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="../images/3.jpeg"
+              src="src/assets/images/3.jpeg"
               alt=""
             />
           </div>
           <div>
             <img
-              src="../images/6.jpeg"
+              src="src/assets/images/6.jpeg"
               alt=""
             />
           </div>
@@ -88,7 +89,7 @@ const Home = () => {
 
         <div className="section--img-container">
           <img
-            src="../../images/general/our-approach--img.jpg"
+            src="src/assets/images/general/our-approach--img.jpg"
             alt=""
           />
         </div>
@@ -98,7 +99,7 @@ const Home = () => {
       <section className="section-two-column dark reverse">
         <div className="section--img-container">
           <img
-            src="../../images/general/our-story--img.jpg"
+            src="src/assets/images/general/our-story--img.jpg"
             alt=""
           />
         </div>
@@ -140,7 +141,7 @@ const Home = () => {
         <div className="services--flex">
           <div className="services--card">
             <img
-              src="../../images/general/event-production.jpg"
+              src="src/assets/images/general/event-production.jpg"
               alt=""
             />
 
@@ -151,7 +152,7 @@ const Home = () => {
 
           <div className="services--card">
             <img
-              src="../../images/general/consulting.jpg"
+              src="src/assets/images/general/consulting.jpg"
               alt=""
             />
 
@@ -162,7 +163,7 @@ const Home = () => {
 
           <div className="services--card">
             <img
-              src="../../images/general/styling.jpg"
+              src="src/assets/images/general/styling.jpg"
               alt=""
             />
 
