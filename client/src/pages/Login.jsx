@@ -40,7 +40,12 @@ const Login = () => {
       onSubmit={submitHandler}
     >
       <div>
-        <label htmlFor="username">Username</label>
+        <label
+          className="usernameLabel"
+          htmlFor="username"
+        >
+          Username
+        </label>
         <input
           id="username"
           type="text"
@@ -51,7 +56,12 @@ const Login = () => {
         />
       </div>
       <div>
-        <label htmlFor="password">Password</label>
+        <label
+          className="passwordLabel"
+          htmlFor="password"
+        >
+          Password
+        </label>
         <input
           id="password"
           type="text"

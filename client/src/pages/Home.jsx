@@ -10,7 +10,10 @@ const Home = () => {
         <div className="cover">
           <h1>Dia Leocadio's Event</h1>
           <h3>your partner in all occasions</h3>
-          <Link to={"/connect"} className="btn primary-btn">
+          <Link
+            to={"/connect"}
+            className="btn primary-btn"
+          >
             Connect with us
           </Link>
         </div>
@@ -22,26 +25,47 @@ const Home = () => {
 
         <div className="grid-container">
           <div>
-            <img src="/images/1.jpeg" alt="" />
+            <img
+              src="../images/1.jpeg"
+              alt=""
+            />
           </div>
           <div>
-            <img src="/images/2.jpeg" alt="" />
+            <img
+              src="../images/2.jpeg"
+              alt=""
+            />
           </div>
           <div>
-            <img src="/images/4.jpeg" alt="" />
+            <img
+              src="../images/4.jpeg"
+              alt=""
+            />
           </div>
           <div>
-            <img src="/images/5.jpeg" alt="" />
+            <img
+              src="../images/5.jpeg"
+              alt=""
+            />
           </div>
           <div>
-            <img src="/images/3.jpeg" alt="" />
+            <img
+              src="../images/3.jpeg"
+              alt=""
+            />
           </div>
           <div>
-            <img src="/images/6.jpeg" alt="" />
+            <img
+              src="../images/6.jpeg"
+              alt=""
+            />
           </div>
         </div>
 
-        <Link to={"/gallery"} className="btn secondary-btn">
+        <Link
+          to={"/gallery"}
+          className="btn secondary-btn"
+        >
           View More
         </Link>
       </section>
@@ -63,14 +87,20 @@ const Home = () => {
         </div>
 
         <div className="section--img-container">
-          <img src="../../images/general/our-approach--img.jpg" alt="" />
+          <img
+            src="../../images/general/our-approach--img.jpg"
+            alt=""
+          />
         </div>
       </section>
 
       {/*!----note: the classes used is in app.css */}
       <section className="section-two-column dark reverse">
         <div className="section--img-container">
-          <img src="../../images/general/our-story--img.jpg" alt="" />
+          <img
+            src="../../images/general/our-story--img.jpg"
+            alt=""
+          />
         </div>
 
         <div className="section--text-container">
@@ -85,7 +115,10 @@ const Home = () => {
             know our clients.
           </p>
 
-          <Link className="btn primary-btn" to={"/about"}>
+          <Link
+            className="btn primary-btn"
+            to={"/about"}
+          >
             read more
           </Link>
         </div>
@@ -106,7 +139,10 @@ const Home = () => {
 
         <div className="services--flex">
           <div className="services--card">
-            <img src="../../images/general/event-production.jpg" alt="" />
+            <img
+              src="../../images/general/event-production.jpg"
+              alt=""
+            />
 
             <div className="cover">
               <h3>Event Production</h3>
@@ -114,7 +150,10 @@ const Home = () => {
           </div>
 
           <div className="services--card">
-            <img src="../../images/general/consulting.jpg" alt="" />
+            <img
+              src="../../images/general/consulting.jpg"
+              alt=""
+            />
 
             <div className="cover">
               <h3>Consulting</h3>
@@ -122,14 +161,20 @@ const Home = () => {
           </div>
 
           <div className="services--card">
-            <img src="../../images/general/styling.jpg" alt="" />
+            <img
+              src="../../images/general/styling.jpg"
+              alt=""
+            />
 
             <div className="cover">
               <h3>Styling</h3>
             </div>
           </div>
         </div>
-        <Link to={"/services "} className="btn secondary-btn">
+        <Link
+          to={"/services "}
+          className="btn secondary-btn"
+        >
           Know More
         </Link>
       </section>

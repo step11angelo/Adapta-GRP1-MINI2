@@ -1,3 +1,8 @@
 .loginForm {
     padding-top: 10rem;
+    font-size: 25px;
+}
+
+.usernameLabel {
+    font-size: 10rem;
 }
