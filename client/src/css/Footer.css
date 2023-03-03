@@ -37,6 +37,10 @@ footer {
   font-size: var(--h4-size);
   text-align: start;
 }
+.contact-col address,
+.footer-container p {
+  margin-top: 1rem;
+}
 .footer-container p {
   color: rgb(122, 116, 116);
   font-size: var(--p-size);

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../css/Header.css";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
+import { logo } from "../assets/images";
 
 const Header = ({ click }) => {
   const [isOn, setIsOn] = useState(false);
@@ -10,7 +11,7 @@ const Header = ({ click }) => {
     <header>
       <Link to={"/"}>
         <div className="logo-container">
-          <img src="/logo.png" alt="" />
+          <img src={logo} alt="" />
           <h3>
             <span>Leocadio's</span> <br></br> Event
           </h3>
