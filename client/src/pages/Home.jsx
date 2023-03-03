@@ -2,7 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/index.css";
 import Testimonials from "../components/Testimonials";
-import { firstPhoto, secondPhoto } from "../assets/images";
+import {
+  firstPhoto,
+  secondPhoto,
+  thirdPhoto,
+  fourthPhoto,
+  fifthPhoto,
+  sixthPhoto,
+  ourApproachImg,
+  ourStoryImg,
+  eventProductionImg,
+  consultingImg,
+  stylingImg,
+} from "../assets/images";
 
 const Home = () => {
   return (
@@ -11,10 +23,7 @@ const Home = () => {
         <div className="cover">
           <h1>Dia Leocadio's Event</h1>
           <h3>your partner in all occasions</h3>
-          <Link
-            to={"/connect"}
-            className="btn primary-btn"
-          >
+          <Link to={"/connect"} className="btn primary-btn">
             Connect with us
           </Link>
         </div>
@@ -26,47 +35,26 @@ const Home = () => {
 
         <div className="grid-container">
           <div>
-            <img
-              src={firstPhoto}
-              alt=""
-            />
+            <img src={firstPhoto} alt="" />
           </div>
           <div>
-            <img
-              src={secondPhoto}
-              alt=""
-            />
+            <img src={secondPhoto} alt="" />
           </div>
           <div>
-            <img
-              src="src/assets/images/4.jpeg"
-              alt=""
-            />
+            <img src={thirdPhoto} alt="" />
           </div>
           <div>
-            <img
-              src="src/assets/images/5.jpeg"
-              alt=""
-            />
+            <img src={fourthPhoto} alt="" />
           </div>
           <div>
-            <img
-              src="src/assets/images/3.jpeg"
-              alt=""
-            />
+            <img src={fifthPhoto} alt="" />
           </div>
           <div>
-            <img
-              src="src/assets/images/6.jpeg"
-              alt=""
-            />
+            <img src={sixthPhoto} alt="" />
           </div>
         </div>
 
-        <Link
-          to={"/gallery"}
-          className="btn secondary-btn"
-        >
+        <Link to={"/gallery"} className="btn secondary-btn">
           View More
         </Link>
       </section>
@@ -88,20 +76,14 @@ const Home = () => {
         </div>
 
         <div className="section--img-container">
-          <img
-            src="src/assets/images/general/our-approach--img.jpg"
-            alt=""
-          />
+          <img src={ourApproachImg} alt="" />
         </div>
       </section>
 
       {/*!----note: the classes used is in app.css */}
       <section className="section-two-column dark reverse">
         <div className="section--img-container">
-          <img
-            src="src/assets/images/general/our-story--img.jpg"
-            alt=""
-          />
+          <img src={ourStoryImg} alt="" />
         </div>
 
         <div className="section--text-container">
@@ -116,10 +98,7 @@ const Home = () => {
             know our clients.
           </p>
 
-          <Link
-            className="btn primary-btn"
-            to={"/about"}
-          >
+          <Link className="btn primary-btn" to={"/about"}>
             read more
           </Link>
         </div>
@@ -140,10 +119,7 @@ const Home = () => {
 
         <div className="services--flex">
           <div className="services--card">
-            <img
-              src="src/assets/images/general/event-production.jpg"
-              alt=""
-            />
+            <img src={eventProductionImg} alt="" />
 
             <div className="cover">
               <h3>Event Production</h3>
@@ -151,10 +127,7 @@ const Home = () => {
           </div>
 
           <div className="services--card">
-            <img
-              src="src/assets/images/general/consulting.jpg"
-              alt=""
-            />
+            <img src={consultingImg} alt="" />
 
             <div className="cover">
               <h3>Consulting</h3>
@@ -162,20 +135,14 @@ const Home = () => {
           </div>
 
           <div className="services--card">
-            <img
-              src="src/assets/images/general/styling.jpg"
-              alt=""
-            />
+            <img src={stylingImg} alt="" />
 
             <div className="cover">
               <h3>Styling</h3>
             </div>
           </div>
         </div>
-        <Link
-          to={"/services "}
-          className="btn secondary-btn"
-        >
+        <Link to={"/services "} className="btn secondary-btn">
           Know More
         </Link>
       </section>
