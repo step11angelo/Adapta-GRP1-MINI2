@@ -4,5 +4,8 @@
 }
 
 .usernameLabel {
-    font-size: 10rem;
+    font-size: 2rem;
+}
+.passwordLabel {
+    font-size: 2rem;
 }
