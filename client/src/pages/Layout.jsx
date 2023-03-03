@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -15,7 +15,10 @@ const Layout = () => {
   return (
     <>
       <Header click={handleClick} />
-      <Sidebar open={open} id="Sidebar" />
+      <Sidebar
+        open={open}
+        id="Sidebar"
+      />
       <Outlet />
       <Footer />
     </>
