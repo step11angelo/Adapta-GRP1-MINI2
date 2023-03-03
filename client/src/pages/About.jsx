@@ -1,12 +1,13 @@
 import React from "react";
 import "../css/about.css";
 import Questions from "../data/Questions";
+import { aboutBanner, aboutTeamImg } from "../assets/images";
 
 const About = () => {
   return (
     <>
       <section className="banner">
-        <img src="../../images/about-page/banner.jpg" alt="" />
+        <img src={aboutBanner} alt="" />
         <div className="cover"></div>
         <h2>About Leocadio's Event</h2>
       </section>
@@ -60,7 +61,7 @@ const About = () => {
           couples the same level of care and attention that we do.
         </p>
         <div className="team_img--container">
-          <img src="../../images/about-page/team.jpg" alt="" />
+          <img src={aboutTeamImg} alt="" />
         </div>
       </article>
 

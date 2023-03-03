@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/Gallery.css";
 import GalleriesData from "../data/GalleriesData";
+import { galleryBanner } from "../assets/images";
 
 const Gallery = () => {
   return (
     <>
       <section className="banner">
-        <img src="../../images/gallery-page/banner.jpg" alt="" />
+        <img src={galleryBanner} alt="" />
         <div className="cover"></div>
         <h2>Galleries</h2>
       </section>
