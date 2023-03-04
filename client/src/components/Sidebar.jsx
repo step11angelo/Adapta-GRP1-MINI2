@@ -38,25 +38,25 @@ const Sidebar = ({ open }) => {
           </Link>
         </li>
         <li>
-          <Link to={"/about"}>
+          <Link to={"/about"} onClick={handleClickLink}>
             <FaExclamationCircle className="icon" />
             About
           </Link>
         </li>
         <li>
-          <Link to={"/gallery"}>
+          <Link to={"/gallery"} onClick={handleClickLink}>
             <FaImage className="icon" />
             Gallery
           </Link>
         </li>
         <li>
-          <Link to={"/services"}>
+          <Link to={"/services"} onClick={handleClickLink}>
             <FaBuffer className="icon" />
             Services
           </Link>
         </li>
         <li>
-          <Link to={"/connect"}>
+          <Link to={"/connect"} onClick={handleClickLink}>
             <FaLink className="icon" />
             Connect
           </Link>
