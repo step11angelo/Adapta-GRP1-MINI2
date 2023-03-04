@@ -44,7 +44,7 @@ const Login = () => {
           className="usernameLabel"
           htmlFor="username"
         >
-          Username
+          Username:
         </label>
         <input
           id="username"
@@ -60,11 +60,11 @@ const Login = () => {
           className="passwordLabel"
           htmlFor="password"
         >
-          Password
+          Password:
         </label>
         <input
           id="password"
-          type="text"
+          type="password"
           required
           placeholder="Enter password"
           onChange={changePasswordHandler}
@@ -72,7 +72,12 @@ const Login = () => {
         />
       </div>
       <div>
-        <button type="submit">Submit</button>
+        <button
+          type="submit"
+          className="submitButton"
+        >
+          Submit
+        </button>
       </div>
     </form>
   );
