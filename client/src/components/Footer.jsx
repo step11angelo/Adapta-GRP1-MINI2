@@ -10,12 +10,13 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import "../css/Footer.css";
+import { logo } from "../assets/images";
 
 const Footer = () => {
   return (
     <footer>
       <div className="center dark logo-container ">
-        <img src="/logo.png" alt="" />
+        <img src="../../logo.png" alt="" />
         <h3>
           <span>Leocadio's</span> Event
         </h3>

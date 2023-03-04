@@ -1,3 +1,6 @@
+// logo
+import logo from "../../../logo.png";
+
 import firstPhoto from "../images/1.jpeg";
 import secondPhoto from "../images/2.jpeg";
 import thirdPhoto from "../images/4.jpeg";
@@ -17,7 +20,11 @@ import aboutTeamImg from "../images/about-page/team.jpg";
 // gallery page
 import galleryBanner from "../images/gallery-page/banner.jpg";
 
+// services page
+import servicesBanner from "../images/services-page/servicesBanner.jpg";
+
 export {
+  logo,
   firstPhoto,
   secondPhoto,
   thirdPhoto,
@@ -32,4 +39,5 @@ export {
   aboutBanner,
   aboutTeamImg,
   galleryBanner,
+  servicesBanner,
 };
