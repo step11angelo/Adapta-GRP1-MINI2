@@ -2,22 +2,6 @@
 
 /*!------banner style is in index.css */
 
-.article-center {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.article-center p {
-  color: var(--light-gray-color);
-  width: 80%;
-  font-size: var(--p-size);
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 3.2rem;
-  margin: 3rem 2rem;
-}
 .team_img--container {
   max-width: 80rem;
   margin: 0 2rem;
@@ -28,14 +12,14 @@
   object-fit: cover;
 }
 
-.team-info--container {
+.info--container {
   background-color: var(--dark-color);
   border-radius: 2rem;
   padding: 2rem;
   margin: 7rem 2rem;
   text-align: left;
 }
-.team-name {
+.info-header {
   color: var(--accent-color);
   font-size: 3rem;
   font-weight: 400;
@@ -44,7 +28,7 @@
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
 }
-.team-info--container h5 {
+.info--container h5 {
   color: var(--light-color);
   font-size: var(--h5-size);
   font-weight: 700;
@@ -54,7 +38,7 @@
 .title {
   color: var(--accent-color);
 }
-.team-info--container p {
+.info--container p {
   color: var(--primary-color);
   width: 95%;
   font-size: var(--h5-size);

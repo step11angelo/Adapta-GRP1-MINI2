@@ -1,6 +1,7 @@
 import React from "react";
 import { servicesBanner } from "../assets/images";
 import "../css/services.css";
+import "../css/index.css";
 import { standardPackages, premiumPackages } from "../data/Packages";
 
 const Services = () => {
@@ -25,6 +26,63 @@ const Services = () => {
           value having a team of professionals on board to make their wedding
           planning process smooth and trust our guidance to bring their wedding
           vision to life.
+        </p>
+      </article>
+
+      <article className="info--container light-info">
+        <h3 className="info-header">Planning</h3>
+
+        <p>
+          Wedding to-do lists can quickly become a mile long. Whether you are
+          someone who loves to tackle a long list of tasks or you prefer to
+          leave that business to the professionals and just show up at your own
+          party, we get it and we’re here for you. And because everyone is
+          different, we approach this process holistically — taking time to get
+          to know who you are, so we truly understand your wedding day vision
+          and can advocate for you effectively. We’ll scout your perfect venue,
+          curate & manage your vendor team, oversee your budget, create a
+          flowing timeline for your full wedding weekend and even mediate when
+          necessary. We are there to advise you through every step of the
+          process and keep you on track, making planning your wedding
+          approachable and enjoyable.
+        </p>
+      </article>
+
+      <article className="info--container light-info">
+        <h3 className="info-header">Styling</h3>
+
+        <p>
+          We know first hand that the world of Instagram can be pretty
+          overwhelming, and how difficult it can be to navigate what you see on
+          blogs and Instagram in search of your own wedding vision. When you do
+          manage to find things that resonate, it can be a struggle to make
+          those styles feel like your own. To make sure we can design a wedding
+          that feels authentically you, we dive in deep and get to know you and
+          your partner on a personal level. We start by creating a custom style
+          guide for your wedding and then pull from our own curated inventory of
+          styling pieces, source additional props & décor, and collaborate with
+          your vendors to bring this style guide to life. The love you share
+          with each other is beautiful, genuine, and yours. We design a wedding
+          to reflect that.
+        </p>
+      </article>
+
+      <article className="info--container light-info">
+        <h3 className="info-header">Coordination</h3>
+
+        <p>
+          You deserve to be present and enjoying yourself to the fullest on your
+          very special wedding day. Through our hands-on approach, we walk
+          through every element of your wedding — reviewing your vendor
+          contracts and cross checking your planning along the way. We act as a
+          guide and advisor throughout the planning process and then three
+          months before your wedding, we begin gathering every last detail
+          you’ve planned and tie up all the loose ends before the big day. We
+          develop an organic timeline, confirm your vendors, attend your final
+          venue walk thru and then orchestrate these details day of, so the
+          wedding can run smoothly for you, your family and your guests. If any
+          problems arise, we approach things proactively. We’re on it before you
+          even know it and we’re always right behind you when you need us most.
         </p>
       </article>
 
@@ -84,7 +142,7 @@ const Services = () => {
       <div className="packages--container">
         {premiumPackages.map((item) => {
           const {
-            packId,
+            pPackageID,
             packageName,
             paxOption1,
             paxOption2,
@@ -100,7 +158,7 @@ const Services = () => {
           } = item;
 
           return (
-            <article className="package-card" key={packId}>
+            <article className="package-card" key={pPackageID}>
               <h4 className="package-name">{packageName}</h4>
               <h3 className="pax-count">{paxOption1}</h3>
               <h3 className="pax-count">{paxOption2}</h3>

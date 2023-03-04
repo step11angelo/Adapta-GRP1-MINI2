@@ -2,6 +2,18 @@
   font-family: lora;
 }
 
+.light-info {
+  background-color: transparent;
+  border: 5px dotted var(--light-color);
+}
+.light-info .info-header {
+  color: var(--dark-coffee);
+  font-weight: 700;
+}
+.light-info p {
+  color: var(--light-gray-color);
+}
+
 .packages--container {
   color: white;
   width: 96%;
