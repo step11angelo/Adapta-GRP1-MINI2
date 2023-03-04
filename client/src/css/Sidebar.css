@@ -1,6 +1,6 @@
 .sidebar {
   display: none;
-  z-index: 100;
+  z-index: 101;
 }
 
 @media (max-width: 768px) {
