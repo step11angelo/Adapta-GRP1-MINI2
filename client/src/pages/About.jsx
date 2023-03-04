@@ -118,9 +118,9 @@ const About = () => {
         <h5 className="title">SENIOR PLANNER</h5>
 
         <p>
-          Stephen joins Leocadio's as a full-time planner after a year of being
-          on our team as a day-of wedding assistant. A very natural organizer,
-          he loves a good checklist and spreadsheet, both of which help him keep
+          Tyron joins Leocadio's as a full-time planner after a year of being on
+          our team as a day-of wedding assistant. A very natural organizer, he
+          loves a good checklist and spreadsheet, both of which help him keep
           our wedding days running seamlessly! He considers himself a hopeless
           romantic who loves love, so there's no surprise that he found his way
           to Leocadio's.
