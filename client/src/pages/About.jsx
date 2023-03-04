@@ -112,10 +112,8 @@ const About = () => {
         </p>
       </article>
 
-
-
-      <article className="team-info--container">
-        <h3 className="team-name">Tyron Aranez</h3>
+      <article className="info--container">
+        <h3 className="info-header">Tyron Aranez</h3>
 
         <h5>HE/HIM</h5>
         <h5 className="title">SENIOR PLANNER</h5>
