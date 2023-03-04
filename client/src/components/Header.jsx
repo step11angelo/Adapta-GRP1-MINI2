@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../css/Header.css";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
@@ -24,7 +24,7 @@ const Header = ({ click }) => {
       <nav className="links-container">
         <ul className="links">
           <li>
-            <Link to={"/"}>Home</Link>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li>
             <Link to={"/about"}>About</Link>

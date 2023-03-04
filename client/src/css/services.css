@@ -1,3 +1,7 @@
+.article-center p {
+  font-family: lora;
+}
+
 .packages--container {
   color: white;
   width: 96%;

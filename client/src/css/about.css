@@ -110,4 +110,17 @@
     text-align: center;
     top: 45%;
   }
+  .items--container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 425px) {
+  .items--container {
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .items--container p {
+    text-align: center !important;
+  }
 }

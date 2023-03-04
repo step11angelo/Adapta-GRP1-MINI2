@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -21,11 +21,18 @@ import {
 const Sidebar = ({ open }) => {
   const [isOn, setIsOn] = useState(false);
 
+  useEffect(() => {
+    setIsOn(open);
+  }, [open]);
+
+  const handleClickLink = () => {
+    setIsOn(false);
+  };
   return (
-    <nav className={open ? "sidebar show-sidebar" : "sidebar"}>
+    <nav className={isOn ? "sidebar show-sidebar" : "sidebar"}>
       <ul className="links">
         <li>
-          <Link to={"/"}>
+          <Link to={"/"} onClick={handleClickLink}>
             <FaHome className="icon" />
             Home
           </Link>

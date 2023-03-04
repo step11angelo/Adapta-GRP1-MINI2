@@ -24,7 +24,9 @@
   color: var(--light-gray-color);
   width: 75%;
   font-size: var(--p-size);
+  font-family: lora;
   text-align: center;
+  line-height: 2.3rem;
   margin: 3rem 0;
 }
 .Hero {
