@@ -32,31 +32,46 @@ const Sidebar = ({ open }) => {
     <nav className={isOn ? "sidebar show-sidebar" : "sidebar"}>
       <ul className="links">
         <li>
-          <Link to={"/"} onClick={handleClickLink}>
+          <Link
+            to={"/"}
+            onClick={handleClickLink}
+          >
             <FaHome className="icon" />
             Home
           </Link>
         </li>
         <li>
-          <Link to={"/about"} onClick={handleClickLink}>
+          <Link
+            to={"/about"}
+            onClick={handleClickLink}
+          >
             <FaExclamationCircle className="icon" />
             About
           </Link>
         </li>
         <li>
-          <Link to={"/gallery"} onClick={handleClickLink}>
+          <Link
+            to={"/gallery"}
+            onClick={handleClickLink}
+          >
             <FaImage className="icon" />
             Gallery
           </Link>
         </li>
         <li>
-          <Link to={"/services"} onClick={handleClickLink}>
+          <Link
+            to={"/services"}
+            onClick={handleClickLink}
+          >
             <FaBuffer className="icon" />
             Services
           </Link>
         </li>
         <li>
-          <Link to={"/connect"} onClick={handleClickLink}>
+          <Link
+            to={"/connect"}
+            onClick={handleClickLink}
+          >
             <FaLink className="icon" />
             Connect
           </Link>
@@ -65,19 +80,34 @@ const Sidebar = ({ open }) => {
       <div className="socials">
         <p>Visit Us:</p>
         <div className="socials-container">
-          <a target="_blank" href="https://www.facebook.com/">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/"
+          >
             <FaFacebookSquare className="icon" />
           </a>
-          <a target="_blank" href="https://www.instagram.com/">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/"
+          >
             <FaInstagram className="icon" />
           </a>
-          <a target="_blank" href="https://www.tiktok.com/">
+          <a
+            target="_blank"
+            href="https://www.tiktok.com/"
+          >
             <FaTiktok className="icon" />
           </a>
-          <a target="_blank" href="https://twitter.com/">
+          <a
+            target="_blank"
+            href="https://twitter.com/"
+          >
             <FaTwitter className="icon" />
           </a>
-          <a target="_blank" href="https://www.youtube.com/">
+          <a
+            target="_blank"
+            href="https://www.youtube.com/"
+          >
             <FaYoutube className="icon" />
           </a>
         </div>
