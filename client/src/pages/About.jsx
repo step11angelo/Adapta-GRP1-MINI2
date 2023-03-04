@@ -7,7 +7,10 @@ const About = () => {
   return (
     <>
       <section className="banner">
-        <img src={aboutBanner} alt="" />
+        <img
+          src={aboutBanner}
+          alt=""
+        />
         <div className="cover"></div>
         <h2>About Leocadio's Event</h2>
       </section>
@@ -61,7 +64,10 @@ const About = () => {
           couples the same level of care and attention that we do.
         </p>
         <div className="team_img--container">
-          <img src={aboutTeamImg} alt="" />
+          <img
+            src={aboutTeamImg}
+            alt=""
+          />
         </div>
       </article>
 
@@ -82,7 +88,7 @@ const About = () => {
         </p>
 
         <p>
-          Dia attended Far Eastern University where she played lacrosse and
+          Dia attended Far Eastern University where she played volleyball and
           graduated as a Political Science & Religious Studies double major with
           a minor in Accounting. Shortly after graduating (and after a year
           residency in Manila), she began working in operations for the
@@ -100,44 +106,43 @@ const About = () => {
 
         <p>
           When she isn’t helping our couples tie the knot, you can find Dia with
-          her bestfriend, Joe, planning a theme party, or curled up with a good
-          book. If you’re trying to win her over, you can’t go wrong with
+          her bestfriend, Daniel, planning a theme party, or curled up with a
+          good book. If you’re trying to win her over, you can’t go wrong with
           McDonalds, a chicken, or the classic Slurpee pantry staple — spam!
         </p>
       </article>
 
       <article className="team-info--container">
-        <h3 className="team-name">Stephen pagorogon</h3>
+        <h3 className="team-name">Tyron Aranez</h3>
         <h5>HE/HIM</h5>
         <h5 className="title">SENIOR PLANNER</h5>
 
         <p>
-          Stephen joins Leocadio's as a full-time associate planner after a year
-          of being on our team as a day-of wedding assistant. A Very natural
-          organizer, he loves a good checklist and spreadsheet, both of which
-          help him keep our wedding days running seamlessly! Stephen considers
-          himself a hopeless romantic who loves love, so there's no surprise
-          that he found his way to Leocadio's.
+          Stephen joins Leocadio's as a full-time planner after a year of being
+          on our team as a day-of wedding assistant. A very natural organizer,
+          he loves a good checklist and spreadsheet, both of which help him keep
+          our wedding days running seamlessly! He considers himself a hopeless
+          romantic who loves love, so there's no surprise that he found his way
+          to Leocadio's.
         </p>
 
         <p>
-          Stephen studied Communications at Le Dasalle University where he
-          participated in leadership programs and spent time studying abroad in
-          Imus, Cavite. After graduation he gained a wide array of experience in
-          Sales, Event Planning, and Human Resources, until he found his home
-          with Leocadio's. As Senior Planner, Stephne keeps Leocadio organized
-          behind the scenes, supporting our couples through the coordination
-          phase of the planning process, and is onsite on wedding days to manage
-          day-of logistics.
+          Tyron studied Communications at De Lasalle University where he
+          participated in leadership programs and spent time studying abroad.
+          After graduation he gained a wide array of experience in Sales, Event
+          Planning, and Human Resources, until he found his home with
+          Leocadio's. As Senior Planner, Tyron keeps Leocadio organized behind
+          the scenes, supporting our couples through the coordination phase of
+          the planning process, and is onsite on wedding day to manage on the
+          day logistics.
         </p>
 
         <p>
-          As a Caviteño native, she loves exploring different neighborhoods and
+          As a Rizal native, he loves exploring different neighborhoods and
           finding new hidden gems. In his free time you can find his styling his
-          new home in East Passyunk that he shares with his partner Andrew,
-          spending time with friends and family, enjoying a mocha latte in a
-          local cafe, or enjoying a nice glass of red wine at one of her
-          favorite Italian spots.
+          new home in Upper Antipolo, spending time with friends and family,
+          enjoying a mocha latte in a local cafe, or enjoying a nice glass of
+          red wine at one of his favorite Italian spots.
         </p>
       </article>
 
@@ -155,11 +160,11 @@ const About = () => {
 
         <p>
           Angelica graduated with a communications degree from the University of
-          Manila, and went on to become a certified Wedding & Event Planner
-          through the Wedding Planning & Consulting Program at University of the
-          Philippines. She led the marketing and events team for the Namayunk
-          neighborhood of Rizal where she planned large scale festivals and
-          events and oversaw the town’s marketing efforts.
+          the Philippines, and went on to become a certified Wedding & Event
+          Planner through the Wedding Planning & Consulting Program at
+          University of the Philippines. She led the marketing and events team
+          for the neighborhood of Rizal where she planned large scale festivals
+          and events and oversaw the town’s marketing efforts.
         </p>
 
         <p>
@@ -175,14 +180,20 @@ const About = () => {
       </article>
 
       <article className="faq">
-        <h2 className="section--header" id="faq-header">
+        <h2
+          className="section--header"
+          id="faq-header"
+        >
           Frequently Asked Questions
         </h2>
 
         {Questions.map((item) => {
           const { questionID, question, answer } = item;
           return (
-            <div className="items--container" key={questionID}>
+            <div
+              className="items--container"
+              key={questionID}
+            >
               <h2 className="question--num">0{questionID}</h2>
               <h5 className="question">{question}</h5>
               <p className="answer">{answer}</p>
